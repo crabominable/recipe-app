@@ -1,0 +1,13 @@
+.container-explore-foods-ingredients {
+  background-color: #FFF4F4;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+  padding-bottom: 50px;
+}
+
+.content-ingredient-list {
+  width: 90%;
+}

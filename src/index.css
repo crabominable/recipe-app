@@ -1,13 +1,20 @@
-body {
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap');
+
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* https://pt.stackoverflow.com/questions/31778/como-deixar-um-item-com-tra%C3%A7o-no-meio-com-del */
+input[type=checkbox]:checked ~ label {
+  text-decoration: line-through;
+}
+
+a {
+  text-decoration: none;
 }
