@@ -28,3 +28,15 @@
   width: 90%;
   color: white;
 }
+
+@media only screen and (min-width: 500px) {
+  .button-explore {
+    width: 60% !important;
+  }
+}
+
+@media only screen and (min-width: 900px) {
+  .button-explore {
+    width: 30% !important;
+  }
+}

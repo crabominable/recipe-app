@@ -41,5 +41,18 @@
 
 .filter-input {
   margin: 0 3px 0 0;
+}
 
+@media only screen and (min-width: 700px) {
+  .search-field-class {
+    width: 60%;
+  }
+
+  .search-input-filters {
+    width: 60%;
+  }
+
+  #search-button-filter {
+    width: 30%;
+  }
 }

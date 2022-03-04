@@ -38,7 +38,6 @@ function RecipesMade() {
       <Header title="Receitas Feitas" search={ false } />
       { returnFiltersButtons() }
       <div className="box-recipes-made">
-        <h5 className="section-title">Receitas</h5>
         { doneRecipe.filter((item) => (type === 'all' ? item : item.type === type))
           .map((item, index) => (<RecipesMadeCard
             data={ item }

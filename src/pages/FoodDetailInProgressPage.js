@@ -141,14 +141,12 @@ function FoodDetailInProgressPage({ match, history }) {
         </button>
       </div>
 
-      <h5 className="section-title">Ingredientes</h5>
       <div className="box-ingredientes">
         {ingredients.map((ingredient, index) => (
           (ingredient !== undefined && ingredient !== null)
           && returnListOfIngredients(index, ingredient)))}
       </div>
 
-      <h5 className="section-title">Instrução</h5>
       <div className="box-instructions">
         <p
           className="instructions"
@@ -159,6 +157,7 @@ function FoodDetailInProgressPage({ match, history }) {
       </div>
 
       <Link
+        style={ { textDecoration: 'none' } }
         className="box-button-done"
         to="/receitas-feitas"
       >

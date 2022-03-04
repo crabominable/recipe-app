@@ -1,14 +1,26 @@
 .container-recipe-button {
-  width: 50%;
+  width: 40%;
+  margin: auto;
 }
 
 .container-recipe-button button {
+  margin: auto;
   margin-bottom: 20px;
-  width: 50%;
+  width: 40%;
   height: 40px;
   background: #FF6060;
   box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.25);
   border-radius: 40px;
   border: none;
   color: white;
+}
+
+@media  (max-width: 600px){
+  .container-recipe-button {
+    width: 60%;
+  }
+  
+  .container-recipe-button button {
+    width: 60%;
+  }
 }

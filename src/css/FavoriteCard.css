@@ -3,11 +3,12 @@
   flex-direction: column;
   justify-content: flex-start;
   width: 48%;
-  height: 140px;
+  height: 200px;
   margin: 1%;
   box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
   border-radius: 5px;
   background-color: white;
+  max-width: 12em;
 }
 
 .content-favorite-recipes {
@@ -22,7 +23,7 @@
 
 .content-favorite-card img {
   width: 100%;
-  height: 100px;
+  height: 120px;
   object-fit: cover;
   filter: drop-shadow(2px 2px 10px rgba(0, 0, 0, 0.25));
   border-radius: 5px;
@@ -30,6 +31,7 @@
 
 .info-favorite-recipes {
   display: flex;
+  align-items: center;
   justify-content: space-between;
 }
 
@@ -38,7 +40,6 @@
 }
 
 .box-info-favorite-recipes p {
-  margin: 0;
   font-size: 12px;
   color: #262626;
 }

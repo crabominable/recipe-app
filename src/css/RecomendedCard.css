@@ -27,7 +27,7 @@
 
 .contenet-recomende-card img {
   object-fit: cover;
-  height: 100px;
+  height: 95px;
   width: 120px;
   border-radius: 5px;
 }
@@ -44,6 +44,7 @@
   color: #262626;
   font-weight: bold;
   font-size: 12px;
+  margin-top:2px;
 }
 
 .box-info-recomended-card p:last-child {

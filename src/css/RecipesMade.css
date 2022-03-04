@@ -35,3 +35,21 @@
   align-items: center;
   margin: 10px 0;
 }
+
+@media only screen and (min-width: 700px) {
+  .box-recipes-made {
+    width: 40%;
+    margin: 4em 0;
+  }
+
+  .filters-button-recipe-button {
+    width: 36%;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .section-title {
+    align-self: flex-start;
+    margin-left: 5%;
+  }
+}

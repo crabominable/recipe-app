@@ -5,9 +5,12 @@ import '../css/StartRecipeButton.css';
 
 export default function StartRecipeButton({ id, onClick, title, page }) {
   return (
-    <Link className="container-recipe-button" to={ `/${page}/${id}/in-progress` }>
+    <Link
+      style={ { textDecoration: 'none' } }
+      className="container-recipe-button"
+      to={ `/${page}/${id}/in-progress` }
+    >
       <button
-        style={ { position: 'fixed', bottom: '0px' } }
         type="button"
         data-testid="start-recipe-btn"
         onClick={ onClick }

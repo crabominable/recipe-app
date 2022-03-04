@@ -7,6 +7,7 @@ function RecomendedCard({ category, index, data, thumb, name, id, route, testid 
   return (
     <div className="container-recomended-card">
       <Link
+        style={ { textDecoration: 'none' } }
         className="contenet-recomende-card"
         to={ `/${[route]}/${data[id]}` }
         data-testid={ testid }

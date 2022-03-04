@@ -72,7 +72,6 @@ function FavoriteRecipes() {
           Drinks
         </button>
       </div>
-      <h5 className="section-title" style={ { margin: '10px' } }>Receitas</h5>
       <div className="content-favorite-recipes">
         { (recipes !== null && (foodFilter || drinkFilter)) ? recipes
           .filter((iFilter) => (foodFilter ? iFilter.type === 'comida'

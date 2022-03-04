@@ -8,7 +8,7 @@ import '../css/DrinksPage.css';
 
 function DrinksPage({ location: { query } }) {
   const { recipes, setMyPage, myPage, setRecipes } = useContext(MyContext);
-  const LIMITER_FOODS = 12;
+  const LIMITER_FOODS = 16;
 
   const randonRecipes = async () => {
     if (query !== undefined) {

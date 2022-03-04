@@ -62,29 +62,31 @@ const Login = () => {
   };
 
   return (
-    <div className="container-form">
-      <div className="title-login">
-        <h1>Let me cook</h1>
-        <img src={ LoginImage } alt="Cozinheiro" />
-      </div>
-      <form className="form-class">
-        <input
-          className="form-control"
-          type="email"
-          data-testid="email-input"
-          onChange={ ({ target }) => setEmail(target.value) }
-          placeholder="Email"
-        />
+    <div className="container">
+      <div className="container-form">
+        <div className="title-login">
+          <h1>Let me cook</h1>
+          <img src={ LoginImage } alt="Cozinheiro" />
+        </div>
+        <form className="form-class">
+          <input
+            className="form-control"
+            type="email"
+            data-testid="email-input"
+            onChange={ ({ target }) => setEmail(target.value) }
+            placeholder="Email"
+          />
 
-        <input
-          className="form-control"
-          type="password"
-          data-testid="password-input"
-          onChange={ ({ target }) => setPassword(target.value) }
-          placeholder="Senha"
-        />
-        { returnButton() }
-      </form>
+          <input
+            className="form-control"
+            type="password"
+            data-testid="password-input"
+            onChange={ ({ target }) => setPassword(target.value) }
+            placeholder="Senha"
+          />
+          { returnButton() }
+        </form>
+      </div>
     </div>
   );
 };

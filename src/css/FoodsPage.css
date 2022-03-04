@@ -5,7 +5,7 @@
   align-items: center;
   justify-content: center;
   width: 100%;
-  margin-bottom: 50px;
+  margin-bottom: 60px;
 }
 
 .recipes-title {
@@ -27,4 +27,33 @@
   display: flex;
   flex-direction: column;
   width: 100%;
+}
+
+@media only screen and (min-width: 500px) {
+  .container-recipes {
+    width: 66% !important;
+  }
+
+  .recipes-title {
+    font-size: 18px !important;
+    margin-bottom: 0.2em !important;
+    margin-left: 0.75em !important;
+    margin-top: 0.4em !important;
+  }
+
+  .box-recipes {
+    align-items: center;
+    flex-direction: row !important;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+
+@media only screen and (min-width: 867px) {
+  .box-recipes {
+    align-items: center;
+    flex-direction: row !important;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
 }

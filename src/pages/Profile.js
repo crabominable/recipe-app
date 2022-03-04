@@ -25,6 +25,7 @@ function Profile() {
       <img src={ addPhoto } alt="add" />
       <p className="email" data-testid="profile-email">{email}</p>
       <Link
+        style={ { textDecoration: 'none' } }
         className="profile-button-box"
         to="/receitas-feitas"
       >
@@ -36,6 +37,7 @@ function Profile() {
         </button>
       </Link>
       <Link
+        style={ { textDecoration: 'none' } }
         className="profile-button-box"
         to="/receitas-favoritas"
       >
@@ -47,6 +49,7 @@ function Profile() {
         </button>
       </Link>
       <Link
+        style={ { textDecoration: 'none' } }
         className="profile-button-box"
         to="/"
       >

@@ -6,7 +6,11 @@ import '../css/FoodCard.css';
 
 function FoodCard({ category, index, data, thumb, name, id, route }) {
   return (
-    <Link className="container-food-card" to={ `/${[route]}/${data[id]}` }>
+    <Link
+      style={ { textDecoration: 'none' } }
+      className="container-food-card"
+      to={ `/${[route]}/${data[id]}` }
+    >
       <div
         className="card-content"
         data-testid={ `${index}-recipe-card` }

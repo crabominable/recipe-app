@@ -76,6 +76,7 @@
 }
 
 .video {
+  height: 20em;
   width: 90%;
   margin-bottom: 10px;
 }
@@ -86,4 +87,36 @@
   display: flex;
   overflow-x: scroll;
   margin-bottom: 80px;
+}
+
+@media only screen and (min-width: 700px) {
+  .image-food-details {
+    height: 16em;
+    width: 40%;
+  }
+
+  .box-recomended {
+    width: 40%;
+  }
+
+  .video {
+    width: 40%;
+  }
+
+  .section-title {
+    width: 40%;
+  }
+  
+  .box-ingredientes, .box-instructions {
+    width: 40%;
+  }
+  
+  .info-food-details {
+    width: 40%;
+  }
+
+  .interaction-food-details{
+    right: 32%;
+    top: 225px;
+  }
 }

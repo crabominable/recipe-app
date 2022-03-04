@@ -49,7 +49,7 @@ function SearchField() {
         className="form-control search-field-class"
         type="text"
         data-testid="search-input"
-        placeholder="buscar"
+        placeholder="Buscar no aplicativo"
         onChange={ ({ target }) => setSearchInput(target.value) }
       />
       <div className="search-input-filters">

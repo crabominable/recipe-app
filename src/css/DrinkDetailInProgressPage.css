@@ -3,12 +3,15 @@
 }
 
 .box-button-done {
+  margin: auto;
   width: 90%;
 }
 
 .button-done-recipe {
-  margin: 20px 0 50px 0;
-  width: 100%;
+  margin: auto;
+  margin-bottom: 2em;
+  margin-top: 16em;
+  width: 45%;
   height: 40px;
   background: #FF6060;
   box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.10);

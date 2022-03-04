@@ -6,6 +6,7 @@ import '../css/IngredientsCard.css';
 function IngredientsCard({ index, ingredient, ingredientImg, ingredientName, page }) {
   return (
     <Link
+      style={ { textDecoration: 'none' } }
       className="container-ingredient-card"
       to={ { pathname: `/${page}`, query: { ingredient } } }
     >

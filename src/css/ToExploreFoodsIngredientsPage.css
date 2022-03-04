@@ -5,9 +5,21 @@
   align-items: center;
   justify-content: flex-start;
   width: 100%;
-  padding-bottom: 50px;
+  padding-bottom: 5em;
 }
 
 .content-ingredient-list {
   width: 90%;
+}
+
+@media only screen and (min-width: 500px) {
+  .content-ingredient-list {
+    width: 60%;
+  }
+}
+
+@media only screen and (min-width: 900px) {
+  .content-ingredient-list {
+    width: 40%;
+  }
 }

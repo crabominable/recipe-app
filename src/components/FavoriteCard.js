@@ -44,7 +44,7 @@ function FavoriteCard({ checkIsFavorite, item, index, setFavorite }) {
             {copySuccess}
           </button>
         </div>
-        <div style={ { position: 'relative', right: '15px', top: '-105px' } }>
+        <div style={ { position: 'relative', right: '10px', top: '-5px' } }>
           <button
             className="button-fav-icon"
             type="button"

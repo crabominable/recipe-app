@@ -10,6 +10,7 @@ function ToExplorePage() {
     <div className="container-explore-page">
       <Header title="Explorar" />
       <Link
+        style={ { textDecoration: 'none' } }
         className="button-explore"
         to="/explorar/comidas"
       >
@@ -23,6 +24,7 @@ function ToExplorePage() {
       </Link>
 
       <Link
+        style={ { textDecoration: 'none' } }
         className="button-explore"
         to="/explorar/bebidas"
       >

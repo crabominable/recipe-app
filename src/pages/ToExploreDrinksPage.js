@@ -23,6 +23,7 @@ function ToExploreDrinksPage() {
     <div className="container-explore-page">
       <Header title="Explorar Bebidas" />
       <Link
+        style={ { textDecoration: 'none' } }
         className="button-explore"
         to="/explorar/bebidas/ingredientes"
       >
@@ -36,6 +37,7 @@ function ToExploreDrinksPage() {
       </Link>
 
       <Link
+        style={ { textDecoration: 'none' } }
         className="button-explore"
         to={ `/bebidas/${randonRecipes.idDrink}` }
       >

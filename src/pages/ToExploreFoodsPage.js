@@ -26,6 +26,7 @@ function ToExploreFoodsPage() {
       <Header title="Explorar Comidas" />
 
       <Link
+        style={ { textDecoration: 'none' } }
         className="button-explore"
         to="/explorar/comidas/ingredientes"
       >
@@ -39,6 +40,7 @@ function ToExploreFoodsPage() {
       </Link>
 
       <Link
+        style={ { textDecoration: 'none' } }
         className="button-explore"
         to="/explorar/comidas/area"
       >
@@ -52,6 +54,7 @@ function ToExploreFoodsPage() {
       </Link>
 
       <Link
+        style={ { textDecoration: 'none' } }
         className="button-explore"
         to={ `/comidas/${randonRecipes.idMeal}` }
       >

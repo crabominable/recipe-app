@@ -139,15 +139,11 @@ function DrinkDetailsPage({ match, history }) {
           />
         </button>
       </div>
-
-      <h5 className="section-title">Ingredientes</h5>
       <div className="box-ingredientes">
         {ingredients.map((ingredient, index) => ((
           ingredient !== undefined || ingredient !== null)
           && returnListOfIngredients(index, ingredient)))}
       </div>
-
-      <h5 className="section-title">Instrução</h5>
       <div className="box-instructions">
         <p
           className="instructions"
@@ -156,8 +152,6 @@ function DrinkDetailsPage({ match, history }) {
           {details.strInstructions}
         </p>
       </div>
-
-      <h5 className="section-title">Recomendadas</h5>
       <div className="box-recomended">
         { recomended !== null && recomended.map((item, index) => (index >= LIMITER_FOODS
           ? null : returnCard(item, index))) }

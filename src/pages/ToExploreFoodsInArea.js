@@ -8,7 +8,7 @@ function ToExploreFoodsInArea() {
   const { recipes, setMyPage, myPage, setRecipes } = useContext(MyContext);
   const [allArea, setAllArea] = useState([]);
   const [selectArea, setSelectArea] = useState('All');
-  const LIMITER_FOODS = 12;
+  const LIMITER_FOODS = 16;
 
   const setAreaRecipes = async () => {
     const { meals } = await myFuncApi.fetchAreaRecipes();

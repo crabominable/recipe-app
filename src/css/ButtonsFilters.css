@@ -15,7 +15,7 @@
 .content-buttons-filter h5 {
   font-weight: 500;
   font-size: 13px;
-  line-height: 15px;
+  line-height: 18px;
   color: #FF6060;
   text-shadow: 0px 2px 10px rgba(0, 0, 0, 0.25);
 }
@@ -51,4 +51,18 @@
   line-height: 9px;
   width: 100%;
   word-break: break-word;
+}
+
+@media only screen and (min-width: 500px) {
+  .container-buttons-filter {
+    width: 72%;
+  }
+
+  .filters-button p {
+    font-size: 12px;
+  }
+
+  .content-buttons-filter h5 {
+    font-size: 18px;
+  }
 }

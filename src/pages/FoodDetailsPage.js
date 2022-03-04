@@ -138,14 +138,10 @@ function FoodDetailsPage({ match, history }) {
           />
         </button>
       </div>
-
-      <h5 className="section-title">Ingredientes</h5>
       <div className="box-ingredientes">
         {ingredients.map((ingredient, index) => (ingredient !== undefined
           && returnListOfIngredients(index, ingredient)))}
       </div>
-
-      <h5 className="section-title">Instrução</h5>
       <div className="box-instructions">
         <p
           className="instructions"
@@ -154,7 +150,6 @@ function FoodDetailsPage({ match, history }) {
           {details.strInstructions}
         </p>
       </div>
-      <h5 className="section-title">Video</h5>
       { details.strYoutube !== undefined && <iframe
         src={ `https://www.youtube.com/embed/${details.strYoutube.split('=')[1]}` }
         frameBorder="0"
@@ -164,7 +159,6 @@ function FoodDetailsPage({ match, history }) {
         data-testid="video"
         className="video"
       /> }
-      <h5 className="section-title">Recomendadas</h5>
       <div className="box-recomended">
         { recomended !== null && recomended.map((item, index) => (index >= LIMITER_FOODS
           ? null : returnCard(item, index))) }
