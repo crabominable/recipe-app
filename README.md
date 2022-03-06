@@ -1,6 +1,6 @@
 ## Recipe App
 
-[project-stage-page]: https://blog.pother.ca/project-stages/
+<img alt="Project stage: Development" src="https://img.shields.io/badge/Project%20Stage-Development-yellowgreen.svg" />
 
 Olá, meu nome é Lucas Pinheiro e este é o repositório do APP de RECEITAS, projeto desenvolvido em grupo no módulo de Front End da TRYBE, com uma estilização responsiva, utlizando JAVASCRIPT, REACT, REDUX, HOOKS, e CSS.
 
