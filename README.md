@@ -6,7 +6,7 @@ Olá, meu nome é Lucas Pinheiro e este é o repositório do APP de RECEITAS, pr
 
 ### Mais sobre
 
-Com o design de interface feito no FIGMA, a qual foi feita com o princípio de mobile-first, e com uma data limite para entrega dos requisitos mínimos obrigatórios, assim como em um projeto da vida real, este possui diversas funcionalidades, como por exemplo, adicionar uma comida ou bebida como favorita a partir da local storage, listar todas as comidas ou bebidas, assim como seus locais de origem e ingredientes, preencher todos os passos de uma receita para que ela aparecessa no menu de receitas completas, entre outras funcionalidades.
+Com o design de interface feito no FIGMA, a qual foi feita com o princípio de mobile-first, e com uma data limite para entrega dos requisitos mínimos obrigatórios, assim como em um projeto da vida real, este possui diversas funcionalidades, como por exemplo, adicionar uma comida ou bebida como favorita a partir da local storage, listar todas as comidas ou bebidas, assim como seus locais de origem e ingredientes, preencher todos os passos de uma receita para que ela apareça no menu de receitas completas, entre outras funcionalidades.
 
 
 ### In english
