@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import * as myFunc from '../services/api';
 import MyContext from '../context/Context';
 
-// IMPORT ICONS MEALS
+// IMPORT ICONS MEALS dale
 import AllMeals from '../images/IconsFilterMeals/All.png';
 import Beef from '../images/IconsFilterMeals/Beef.png';
 import BreakFast from '../images/IconsFilterMeals/BreakFast.png';
