@@ -2,7 +2,7 @@
 
 <img alt="Project stage: Development" src="https://img.shields.io/badge/Project%20Stage-Development-yellowgreen.svg" />
 
-Olá, meu nome é Lucas Pinheiro e este é o repositório do APP de RECEITAS, projeto desenvolvido em grupo no módulo de Front End da TRYBE, com uma estilização responsiva, utlizando JAVASCRIPT, REACT, REDUX, HOOKS, e CSS.
+Olá, meu nome é Lucas Pinheiro e este é o repositório do APP de RECEITAS, projeto desenvolvido em grupo no módulo de Front End da TRYBE, com uma estilização responsiva, utlizando JAVASCRIPT, REACT, ContextApi, HOOKS, e CSS.
 
 ### Mais sobre
 
@@ -13,7 +13,7 @@ Com o design de interface feito no FIGMA, a qual foi feita com o princípio de m
 Consumimos duas APIs externas, sendo a themealdb.com e a thecocktaildb.com. As funcionalidades relacionadas com a local storage foram separadas em dois arquivos diferentes, um helper para validações e um storage para armazenar.
 
 ### In english
-Hello, my name is Lucas Pinheiro and this is the repository of the RECIPES APP, a project developed in group in the Front End module of TRYBE, with a responsive styling, using JAVASCRIPT, REACT, REDUX, HOOKS, and CSS.
+Hello, my name is Lucas Pinheiro and this is the repository of the RECIPES APP, a project developed in group in the Front End module of TRYBE, with a responsive styling, using JAVASCRIPT, REACT, ContextApi, HOOKS, and CSS.
 
 ### More about
 
