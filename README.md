@@ -10,7 +10,7 @@ Com o design de interface feito no FIGMA, a qual foi feita com o princípio de m
 
 ### Quais tecnologias e habilidades foram utilizadas?
 
-Consumimos duas APIs externas, sendo a themealdb.com e a thecocktaildb.com. As funcionalidades relacionadas com a local storage foram separadas em dois arquivos diferentes , um helper para validações e um storage para armazenar.
+Consumimos duas APIs externas, sendo a themealdb.com e a thecocktaildb.com. As funcionalidades relacionadas com a local storage foram separadas em dois arquivos diferentes, um helper para validações e um storage para armazenar.
 
 ### In english
 Hello, my name is Lucas Pinheiro and this is the repository of the RECIPES APP, a project developed in group in the Front End module of TRYBE, with a responsive styling, using JAVASCRIPT, REACT, REDUX, HOOKS, and CSS.
